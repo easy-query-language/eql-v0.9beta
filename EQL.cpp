@@ -446,9 +446,7 @@ public:
                                 }
                                 else{u=-1;break;}
                             }
-                            else{u=-1;break;}
                         }
-                        else{u=-1;break;}
                     }
                 }
             }
@@ -461,7 +459,7 @@ public:
                 re<<row;ce<<ncol;
                 for(int i=0;i<row;i++)
                 {
-                    for(int j=0;j<ncol;j++)
+                    for(int j=0;j<(ncol+1);j++)
                     {
                         if(j!=u)
                         {
